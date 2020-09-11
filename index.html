@@ -8,8 +8,6 @@
 	<title>Serhii Ovsianykov Test Task</title>
 	<!-- <script src="js/jQuery.js"></script> -->
 	<script src="js/script.js"></script>
-	<!-- <script src='js/masonry.pkgd.min.js'></script> -->
-
 </head>
 
 <body>
@@ -19,7 +17,7 @@
 				<img src="./img/backgrounds/logo.png" alt="logo">
 			</div>
 			<div class="burger">
-				<img src="img/backgrounds/588a64e0d06f6719692a2d10.png" alt="brgr">
+				<img src="./img/backgrounds/588a64e0d06f6719692a2d10.png" alt="brgr">
 			</div>
 			<ul>
 				<li><a href="#" class="m"><i class="contact-us"></i></a></li>
@@ -50,7 +48,7 @@
 			</ul>
 		</nav>
 	</header>
-	<div class="container1">
+	<div class="container">
 		<div class="sidebar">
 			<div class="p"><a href="#"><i class="palette"></i><span>ART</span></a></div>
 			<div class="m"><a href="#"><i class="music"></i><span>MUSIC</span></a></div>
@@ -62,13 +60,26 @@
 			<div class="pl"><a href="#"><i class="plus"></i><span>EXTRA</span></a></div>
 			<div class="cg"><a href="#"><i class="cog"></i><span>SETTINGS</span></a></div>
 		</div>
-		<div  id='masonry' >
-			<div class="item">
+		<div class="column">
+
+
+
+
+			
 				<div class="news" id="one">
 					<div class="pic">
-						<div class="hover">
-							<a href="#"><img src="img/backgrounds/READMORE.png" alt=""></a>
-						</div>
+						<a href="#">
+							<div class="hover">
+								<div class="readmore">
+									<div class="arrowpic">
+										<img src="img/backgrounds/Arrow.png" alt="arr">
+									</div>
+									<div class="txt">
+										READ MORE
+									</div>		
+								</div>
+							</div>
+						</a>
 						<img src="img/news/foot.jpg" alt="choose">
 					</div>
 					<div class="iconRow">
@@ -86,23 +97,31 @@
 							minus modi numquam officia provident, rem saepe sunt tenetur!</p>
 					</article>
 				</div>
-			</div>
-			<div class="item">
 				<div class="news">
 					<div class="pic">
-						<div class="hover">
-							<a href="#"><img src="img/backgrounds/READMORE.png" alt=""></a>
-						</div>
+						
 						<img src="img/news/ad.jpg" alt="ch">
 					</div>
+
 				</div>
-			</div>
-			<div class="item">
+
+
+			
+		
 				<div class="news" id="two">
 					<div class="pic">
-						<div class="hover">
-							<a href="#"><img src="img/backgrounds/READMORE.png" alt=""></a>
-						</div>
+						<a href="#">
+							<div class="hover">
+								<div class="readmore">
+									<div class="arrowpic">
+										<img src="img/backgrounds/Arrow.png" alt="arr">
+									</div>
+									<div class="txt">
+										READ MORE
+									</div>		
+								</div>
+							</div>
+						</a>
 						<img src="img/news/robin_thicke.jpg" alt="choose">
 					</div>
 					<div class="iconRow">
@@ -116,13 +135,20 @@
 							tenetur!</p>
 					</article>
 				</div>
-			</div>
-			<div class="item">
 				<div class="news" id="five">
 					<div class="pic">
-						<div class="hover">
-							<a href="#"><img src="img/backgrounds/READMORE.png" alt=""></a>
-						</div>
+						<a href="#">
+							<div class="hover">
+								<div class="readmore">
+									<div class="arrowpic">
+										<img src="img/backgrounds/Arrow.png" alt="arr">
+									</div>
+									<div class="txt">
+										READ MORE
+									</div>		
+								</div>
+							</div>
+						</a>
 						<img src="img/news/strange_brand.jpg" alt="choose">
 					</div>
 					<div class="iconRow">
@@ -134,13 +160,22 @@
 						<p>Lorem ipsum dolor siplaceat? Assumen modi numquam officia provident, rem saepe sunt tenetur!</p>
 					</article>
 				</div>
-			</div>
-			<div class="item">
+			
+			
 				<div class="news" id="three">
 					<div class="pic">
-						<div class="hover">
-							<a href="#"><img src="img/backgrounds/READMORE.png" alt=""></a>
-						</div>
+						<a href="#">
+							<div class="hover">
+								<div class="readmore">
+									<div class="arrowpic">
+										<img src="img/backgrounds/Arrow.png" alt="arr">
+									</div>
+									<div class="txt">
+										READ MORE
+									</div>		
+								</div>
+							</div>
+						</a>
 						<img src="img/news/a-rod.jpg" alt="choose">
 					</div>
 					<div class="iconRow">
@@ -159,13 +194,20 @@
 							voluptatem?</p>
 					</article>
 				</div>
-			</div>
-			<div class="item">
 				<div class="news" id="six">
 					<div class="pic">
-						<div class="hover">
-							<a href="#"><img src="img/backgrounds/READMORE.png" alt=""></a>
-						</div>
+						<a href="#">
+							<div class="hover">
+								<div class="readmore">
+									<div class="arrowpic">
+										<img src="img/backgrounds/Arrow.png" alt="arr">
+									</div>
+									<div class="txt">
+										READ MORE
+									</div>		
+								</div>
+							</div>
+						</a>
 						<img src="img/news/cosmos.jpg" alt="choose">
 					</div>
 					<div class="iconRow">
@@ -179,24 +221,6 @@
 							tenetur!</p>
 					</article>
 				</div>
-			</div>
-
-
-
-
-			
-
-
-
-
-			
-			
-
-
-			
-			
-
-
 			
 		</div>
 
@@ -204,21 +228,12 @@
 
 
 	</div>
-
-
-
-	<script>
-		// 	$('.burger').click(function () {
-		// 	$('.sidebar ').toggleClass('HeaderActive');
-		// 	console.log('Hello')
-		//  });
-		
-		var container2 = document.querySelector('#masonry');
-		var msnry = new Masonry( container2, {
-		  columnWidth: 1,
-		  itemSelector: '.item'
-		});
-		</script>
+<script>
+	$('.burger').click(function () {
+	$('.sidebar ').toggleClass('HeaderActive');
+	console.log('Hello')
+ });
+</script>
 </body>
 
 </html>
